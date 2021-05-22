@@ -18,6 +18,9 @@ int main() {
 	for(int i=0;i<arr.size();i++)
 	    cout << arr[i] << endl;
 
+     for(int x:arr){
+        cout << x << ",";
+     }
 
 
 // 	cout << arr.capacity() <<endl;
