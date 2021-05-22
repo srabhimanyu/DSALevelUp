@@ -4,15 +4,23 @@ using namespace std;
 
 int main() {
 
-	vector<int> arr = {1,2,7,10,15};
+// 	vector<int> arr = {1,2,7,10,15};
 
-	// O(1)
+// 	// O(1)
+// 	arr.pop_back();
+// 	arr.push_back(16);
 
-	arr.push_back(1);
+// // 	cout << arr.size() <<endl;
 
-	cout << arr.size() <<endl;
+    vector<int> arr(10,7);
+    arr.push_back(16);
 
-	cout << arr.capacity() <<endl;
+	for(int i=0;i<arr.size();i++)
+	    cout << arr[i] << endl;
+
+
+
+// 	cout << arr.capacity() <<endl;
 
 
 
